@@ -1,8 +1,13 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "[typescript]": {
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": false,
+            "source.fixAll.eslint": false
+        }
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
