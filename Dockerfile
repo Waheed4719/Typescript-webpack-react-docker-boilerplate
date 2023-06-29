@@ -2,7 +2,7 @@ FROM node:18-bullseye
 
 WORKDIR /app
 
-COPY package*.json .
+COPY package*.json .babelrc .
 
 RUN npm install
 
